@@ -17,9 +17,9 @@ const createPaymentRequest = async () => {
         quantity: 1,
         total_amount: 10000,
         tax_free_amount: 0,
-        approval_url: 'http://localhost:3000/',
-        cancel_url: 'http://localhost:3000/',
-        fail_url: 'http://localhost:3000/'
+        approval_url: 'https://nueob.github.io/PG-api-test/',
+        cancel_url: 'https://nueob.github.io/PG-api-test/',
+        fail_url: 'https://nueob.github.io/PG-api-test/'
       },
       {
         headers: {
