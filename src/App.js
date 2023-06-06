@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
+import kakaopayLogo from "./images/payment_icon_yellow_large.png";
 
 // 결제 요청 생성
 const createPaymentRequest = async () => {
@@ -42,18 +42,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={kakaopayLogo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
