@@ -1,12 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  cursor: pointer;
-}
-
-.App-header {
+.Kakaopay-payment {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,4 +6,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Kakaopay-logo {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
